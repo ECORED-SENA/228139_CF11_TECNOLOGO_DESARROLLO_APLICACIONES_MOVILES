@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Diseño del modelo conceptual bajo el paradigma orientado a objetos '

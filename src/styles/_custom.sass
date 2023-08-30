@@ -1,19 +1,282 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.cursiva
+  font-style: italic
+
+.tarjeta--azul2
+  background-color: #039BE5
+
+.color-amarillo2
+  background-color: #ffedb7
+.color-amarillo3
+  background-color: #fff6db    
+.color-acento-contenido2
+  background-color: #e5f8fa   
 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.tarjeta.color-amarillo2  
+  width: 100%
 
-  100%
-    transform: translateY(0px)
+.tarjeta-sin-bordes
+  border-radius: 0px
+.tarjeta-sin-bordes2
+  border-radius: 0px
+  height: 192px
+
+.bloque-texto-a.color-secundario:before 
+  background-color: #dfe6e7
+
+.tabs-a__tab 
+  background-color: #e8e8e8
+
+
+.cajon.color-acento-contenido::before 
+  background-color: #ffa726
+.cajon.color-acento-contenido
+  background-color: #ffe5bf
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.img-mov
+  @media (max-width: 990px)
+    display: block
+    margin: auto
+    width: auto
+    height: auto    
+
+.j
+  display: grid
+  place-items: center    
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem  
+
+.color
+  &--blanco
+    background-color: $white
+    width: fit-content
+  &--naranjaclaro
+    background-color: #FFE9C8
+  &--cyanclaro
+    background-color: #D2F3F8
+  &--amarilloclaro
+    background-color: lighten($color-acento-botones,30%)
+  &--azulclaro
+    background-color: lighten($color-secundario, 40%)
+.cuadro
+  &--blanco
+    background-color: $white
+    width: fit-content
+  &--naranjaclaro
+    background-color: #FFE9C8
+  &--cyanclaro
+    background-color: #D2F3F8
+    border-radius: 10px
+  &--amarilloclaro
+    background-color: lighten($color-acento-botones,30%)
+  &--azulclaro
+    background-color: lighten($color-secundario, 40%)
+.spam-text
+  &--primario
+    color: $color-primario
+    font-weight: bold
+    font-size: 1.2rem !important
+  &--secundario
+    color: $color-secundario
+    font-weight: bold
+    font-size: 1.2rem !important
+  &--contenido
+    color: $color-acento-contenido
+    font-weight: bold
+    font-size: 1.2rem !important
+  &--botones
+    color: $color-acento-botones
+    font-weight: bold
+    font-size: 1.2rem !important
+  &--normal
+    color: $color-sistema-texto
+    font-weight: bold
+    font-size: 1.2rem !important
+  &--claro
+    color: #727997
+    font-weight: bold
+    font-size: 1.2rem !important
+.cajon-ejemplo
+  .cajon
+    &::before
+      content: "Ejemplo"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo
+  .cajon
+    &::before
+      content: "Ejemplo método:"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js1
+  .cajon
+    &::before
+      content: "Ejemplo implementación de constructor en Java "  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js2
+  .cajon
+    &::before
+      content: "Ejemplo implementación de constructor vacío o por defecto en Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js3
+  .cajon
+    &::before
+      content: "Ejemplo implementación de métodos get y set en Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js4
+  .cajon
+    &::before
+      content: "Ejemplo de implementación de herencia en Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js5
+  .cajon
+    &::before
+      content: "Ejemplo de implementación de extends en Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js6
+  .cajon
+    &::before
+      content: "Ejemplo de implementación constructor en herencia Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js7
+  .cajon
+    &::before
+      content: "Ejemplo de implementación de herencia clase Cliente en Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js8
+  .cajon
+    &::before
+      content: "Ejemplo implementación de la clase Empleado en Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js9
+  .cajon
+    &::before
+      content: "Ejemplo implementación de sobrecarga de constructores y métodos en Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js10
+  .cajon
+    &::before
+      content: "Ejemplo implementación de composición en Java"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.cajon-ejemplo-metodo-js11
+  .cajon
+    &::before
+      content: "Ejemplo agregación en UML"  !important
+      width: fit-content
+      height: fit-content
+      margin-bottom: 1rem
+      font-weight: bold
+      padding: 0.3rem
+      font-size: 0.8rem
+    border-radius: 10px
+.tarjeta
+  width: 100%
+.th1
+  text-align: center !important
+  
+.tabla-a
+  .tr1
+    th
+      font-weight: normal !important
+  tr:nth-child(even)
+    
+    background-color: #fcfcfc !important
+.vineta-azul
+  .fas.fa-check
+    color: $color-primario !important
+.icon
+  width: 85px !important 
+.bloque-texto-b.color-primario
+  &:before
+    background-color: #D2F3F8 !important
+.cuadro-primario
+  background-color: $color-primario 
+  border-radius: 10px   
+  font-size: 24px
+.tabs-c__tab--active
+  span
+    font-weight: bold !important      
