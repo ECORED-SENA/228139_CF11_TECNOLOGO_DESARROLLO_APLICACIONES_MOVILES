@@ -27,7 +27,7 @@
             span <b> 3 </b>
           | Los nombres deben ser sustantivos.
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 2.
+      h5 Tabla 3.
       span Estructura de una clase en Java
           
     .tabla-a.color-acento-contenido.mb-5
@@ -145,7 +145,7 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color--cyanclaro
             .p-4
-              h4.text-center.fst-italic public: 
+              h4.text-center.fst-italic public 
               p Indica que los atributos son accesibles desde cualquier lugar del programa. No hay restricciones en el alcance de los miembros de datos públicos.
       .col-lg-4
         .tarjeta-avatar
@@ -155,7 +155,7 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color--cyanclaro
             .p-4
-              h4.text-center.fst-italic private: 
+              h4.text-center.fst-italic private 
               p Indica que los atributos solo son accesibles dentro de la clase en la que se declaran.
       .col-lg-4
         .tarjeta-avatar
@@ -165,14 +165,14 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color--cyanclaro
             .p-4
-              h4.text-center.fst-italic protected: 
+              h4.text-center.fst-italic protected 
               p Indica que los atributos son accesibles dentro del mismo paquete o sub-clases en paquetes diferentes. Al heredar sí se puede usar desde la clase derivada.
     p.mb-5 
       b tipo: 
       b-none es el tipo de la variable, pudiendo ser un tipo básico o un objeto.
     p.mb-5 A continuación, se relacionan los tipos de datos que existen en Java:
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 3.
+      h5 Tabla 4.
       span Tipos de datos en Java
     .tabla-a.color-acento-contenido.mb-5 
       table.text-center.b-none
@@ -330,7 +330,7 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color--cyanclaro
             .p-4
-              h4.text-center Modificador de visibilidad: 
+              h4.text-center Modificador de visibilidad 
               p Se aplican las mismas normas que para los atributos, se debe indicar el modificador de acceso, este puede ser público, privado o protegido.
       .col-lg-4
         .tarjeta-avatar.mb-lg-0.mb-5
@@ -340,7 +340,7 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color--cyanclaro
             .p-4
-              h4.text-center Tipo: 
+              h4.text-center Tipo 
               p Es el tipo de valor devuelto por el método, pudiendo ser #[i int], #[i char], #[i String], etc.
       .col-lg-4
         .tarjeta-avatar.mb-lg-0.mb-5
@@ -350,7 +350,7 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color--cyanclaro
             .p-4
-              h4.text-center Nombre del método: 
+              h4.text-center Nombre del método 
               p Es el nombre que tendrá el método y debe cumplir con las siguientes convenciones:
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -367,7 +367,7 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color--cyanclaro
             .p-4
-              h2 Lista de parámetros: 
+              h2 Lista de parámetros 
               p Dentro de los paréntesis se escriben los parámetros, los parámetros son los atributos que recibe el método para poder operar correctamente, puede o no tener parámetros.
       .col-lg-6
         .tarjeta-avatar-b.mb-lg-0.mb-3
@@ -378,7 +378,7 @@
           //- estas clases tambien tienen un modificador --borde
           .tarjeta.color--cyanclaro
             .p-4
-              h2 Cuerpo del método {}: 
+              h2 Cuerpo del método {} 
               p Para finalizar todo método debe llevar un par de llaves, que es donde se escribe el código a ejecutar. (
                 b Nota:
                 b-none  a diferencia de los atributos, los métodos no finalizan con punto y coma).
@@ -527,7 +527,7 @@
     br
     br
     #t_5_3.titulo-segundo
-      h2 5.3 Métodos accesores y modificadores
+      h2 5.3 Métodos de acceso y modificadores
     p.mb-5 De métodos y modificadores, hay dos tipos básicos esenciales de miembros de la clase: público (#[i public]) y privado (#[i private]). 
     .row.mb-5.justify-content-between
       .col-lg-7
@@ -693,7 +693,7 @@
           .col-lg-12
             .cajon-ejemplo
                 .cajon.color-acento-contenido.p-5.mb-4.justify-content-center
-                  p Sintaxis método get:
+                  p Sintaxis método #[i get]:
                   p.fw-bold public tipo_dato_atributo getAtributo (){     
                     br
                     .ms-5.fw-bold  	 	     return atributo;
@@ -708,7 +708,7 @@
           .col-lg-12
             .cajon-ejemplo
                 .cajon.color-acento-contenido.p-5.mb-4.justify-content-center
-                  p.mt-5 Sintaxis método set:
+                  p.mt-5 Sintaxis método #[i set]:
                     br
                     .fw-bold.my-5   public void setAtributo (tipo_dato_atributo variable){   
                     .ms-5.fw-bold.mb-5      this.atributo = variable;
@@ -716,19 +716,21 @@
                       |	}
     .row.justify-content-center.mb-5
       .col-lg-12
-        .cajon-ejemplo-metodo-js3
-            .cajon.color-acento-contenido.p-5.mb-4.justify-content-center
-              .row.justify-content-center
-                .col-lg-8
-                  img(src="@/assets/curso/img30.jpg", alt="Se muestra la clase ‘Producto” con sus atributos “código” y “nombre”, por cada uno de estos atributos están sus métodos “get” y “set“" )
-                .col-lg-4
-                  p En el ejemplo se muestra la clase 
-                    b Producto 
-                    b-none con sus atributos 
-                    b codigo 
-                    b-none y nombre,  por cada uno de estos atributos encontramos sus métodos 
-                    b get 
-                    b-none y set para obtener y cambiar el valor de cada uno de ellos.
+          .cajon.color-acento-contenido.justify-content-center
+            .row 
+              .col-auto
+                p.p-2.bgc Ejemplo implementación de métodos #[i get] y #[i set] en Java
+            .row.justify-content-center.p-5.mb-4
+              .col-lg-8
+                img(src="@/assets/curso/img30.jpg", alt="Se muestra la clase ‘Producto” con sus atributos “código” y “nombre”, por cada uno de estos atributos están sus métodos “get” y “set“" )
+              .col-lg-4
+                p En el ejemplo se muestra la clase 
+                  b Producto 
+                  b-none con sus atributos 
+                  b codigo 
+                  b-none y nombre,  por cada uno de estos atributos encontramos sus métodos 
+                  b #[i get ] 
+                  b-none y #[i #[b set]] para obtener y cambiar el valor de cada uno de ellos.
     br
     br
     #t_5_4.titulo-segundo

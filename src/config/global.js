@@ -91,7 +91,7 @@ export default {
           },
           {
             numero: '5.3',
-            titulo: 'Métodos accesores y modificadores',
+            titulo: 'Métodos de acceso y modificadores',
             hash: 't_5_3',
           },
           {

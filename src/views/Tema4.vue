@@ -54,7 +54,7 @@
           figcaption SENA (2021)
     p.mb-5 Además de contar con las anteriores características, existen distintos entornos de desarrollo de aplicaciones Java, este tipo de productos ofrecen al programador un ambiente de trabajo integrado para facilitar el proceso completo de desarrollo de aplicaciones; estos productos se denominan IDE (Integrated Development Environment). Entre los más conocidos se encuentran:
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 1.
+      h5 Tabla 2.
       span Entornos de desarrollo Java
     .tabla-a.color-acento-botones.mb-5.text-center
       table.text-center

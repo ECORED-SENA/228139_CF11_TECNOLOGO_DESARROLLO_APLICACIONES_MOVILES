@@ -123,12 +123,23 @@
       strong visibilidad 
       | define la accesibilidad para los atributos o métodos de la clase. Los atributos y métodos pueden ser privados, protegidos o públicos y se representan con cada uno de los símbolos que muestra la siguiente tabla:
 
-    .row.justify-content-center
-      .col-lg-6
+    .row.justify-content-center.mb-5
+      .col-lg-8
         .titulo-sexto.color-acento-contenido.titulo-img
           h5 Tabla 1. Símbolos de modificadores de acceso
-        figure.mb-5
-          img.mb-2(src='@/assets/curso/2-1-tabla.svg', alt='Tabla 1. Símbolos de modificadores de acceso') 
+
+        .tabla-a.color-acento-contenido(data-aos="fade-left") 
+          table
+            tbody.text-bold.text-center
+              tr.bgt1
+                td Público 
+                td + 
+              tr.bgt2
+                td.bgt2 Privado
+                td.bgt2 -
+              tr.bgt1
+                td Protegido
+                td #
           figcaption Fuente: SENA (2021).
 
     .row 
@@ -241,14 +252,14 @@
           figcaption Fuente: SENA (2021).
 
     p En el ejemplo anterior, se pueden observar 3 diferentes ejemplos de asociación entre la clase A y la clase B, en todos los ejemplos la Clase A asume el 
-      span.cursiva rolA 
+      span rol A 
       | en el contexto de asociación, mientras que la clase B asume el 
-      span.cursiva rolB 
+      span rol B 
       | en el contexto de la relación. 
     p Adicionalmente, se puede observar que los dos primeros ejemplos tienen navegabilidad unidireccional, lo cual representa que la relación se establece en un solo sentido. En el primer caso la 
-      span.cursiva Asociación1 
+      span Asociación A 
       | vincula la clase B como origen y la clase A como destino, en el segundo caso se vincula con la 
-      span.cursiva Asociación2 
+      span Asociación B 
       | a la clase A como origen con la clase B como destino y en el último ejemplo el vínculo es bidireccional, es decir en los dos sentidos, desde A hacia B y desde B hacia A.
     p Una relación de asociación debe tener como mínimo tres elementos: (I) nombre de la asociación, (II) navegabilidad y (III) multiplicidad. Respecto a la multiplicidad esta representa la cantidad numérica de instancias de las clases que participan en la relación, aunque este puede ser cualquier número normalmente se acostumbra a utilizar el valor de 1 o * cuando son varias instancias las participantes.
     p Para facilitar el proceso de entendimiento y lectura se debe tener en cuenta la navegabilidad. Siempre se lee tomando como referencia 

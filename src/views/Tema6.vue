@@ -35,7 +35,7 @@
       h2 6.1 Implementación de asociaciones
     p.mb-5 La implementación de asociación en Java se realiza mediante el uso de un campo de instancia. La relación puede ser bidireccional y cada clase tiene una referencia a la otra. La agregación y la composición son tipos de relaciones de asociación. A continuación, se explicitan los tipos de relaciones:
     TabsC.color-acento-contenido.mb-5
-      .py-3.py-md-4(titulo="a- Asociación bidireccional")
+      .py-3.py-md-4(titulo="Asociación bidireccional")
         .row
           .col-lg-6.d-block.my-auto
               img.mb-3(src="@/assets/curso/img35.svg", alt="" ).m-auto.d-block
@@ -60,7 +60,7 @@
               span 
                 b Ejemplo asociación bidireccional en Java
               .indicador--click(v-if="mostrarIndicador")
-      .py-3.py-md-4(titulo="b- Asociación unidireccional")
+      .py-3.py-md-4(titulo="Asociación unidireccional")
         .row
           .col-lg-6.d-block.my-auto
               img.mb-3(src="@/assets/curso/img38.svg", alt="" ).m-auto.d-block
@@ -177,7 +177,7 @@
       .col-1
         img.img-a.img-t.mb-3(src="@/assets/curso/img44.svg", alt="")
       .col-lg-11.col-md-10.col-md-9.d-block.m-auto
-        h6 Se crea la clase padre o superClase Persona, con sus atributos, constructores, métodos get y set.
+        h6 Se crea la clase padre o superClase Persona, con sus atributos, constructores, métodos #[i get] y #[i set].
     .row.justify-content-center.mb-5
       .col-lg-12
         .cajon-ejemplo-metodo-js4

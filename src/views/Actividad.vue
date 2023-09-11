@@ -11,11 +11,11 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Diagramas de clase
-        p.mb-4 Reconozca 
+        p.mb-4 Afianzar conceptos fundamentales de los diagramas de clases a través de su reconocimiento relacional.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Afianzar conceptos fundamentales de los diagramas de clases a través de su reconocimiento relacional.
+              p.fw-bold.mb-0 Verdadero o Falso
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad_1/actividad.html')" target="_blank")
                 span Realizar
@@ -34,7 +34,7 @@
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Emparejamiento
+              p.fw-bold.mb-0 Relación de términos
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad_2/actividad.html')" target="_blank")
                 span Realizar

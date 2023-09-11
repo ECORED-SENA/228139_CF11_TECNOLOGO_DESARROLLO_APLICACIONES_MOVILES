@@ -125,7 +125,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/fPbUqr49DYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+      figcaption Video. Diagramas de clase: StarUML
     .row.justify-content-center.align-items-center         
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-5
