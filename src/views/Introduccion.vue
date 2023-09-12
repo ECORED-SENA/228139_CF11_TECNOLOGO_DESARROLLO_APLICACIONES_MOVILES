@@ -17,8 +17,8 @@
       .col-lg-12(data-aos="fade-left")     
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video.
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/W6Wt7VK0bFI?si=JBfBdHyfRZI5A9fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Diseño del modelo conceptual bajo el paradigma orientado a objetos
     .cajon.color-acento-contenido.p-4
       p.mb-0 Este componente formativo, entonces, también se dará un recorrido a las características del lenguaje de programación orientada a objetos, las implementaciones de clases y objetos, y en su interior se reconocerán los atributos, métodos de las clases, los constructores y destructores, los métodos de acceso y modificación, junto con la sobrecarga de métodos. Esto permitirá conocer con la comunicación entre clases desde su implementación de asociaciones, composición / agregación y la implementación de herencia.  
 
