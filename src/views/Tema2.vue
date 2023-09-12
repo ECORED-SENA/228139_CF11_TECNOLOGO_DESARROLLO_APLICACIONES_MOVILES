@@ -257,9 +257,9 @@
       span rol B 
       | en el contexto de la relación. 
     p Adicionalmente, se puede observar que los dos primeros ejemplos tienen navegabilidad unidireccional, lo cual representa que la relación se establece en un solo sentido. En el primer caso la 
-      span Asociación A 
+      span Asociación 1 
       | vincula la clase B como origen y la clase A como destino, en el segundo caso se vincula con la 
-      span Asociación B 
+      span Asociación 2 
       | a la clase A como origen con la clase B como destino y en el último ejemplo el vínculo es bidireccional, es decir en los dos sentidos, desde A hacia B y desde B hacia A.
     p Una relación de asociación debe tener como mínimo tres elementos: (I) nombre de la asociación, (II) navegabilidad y (III) multiplicidad. Respecto a la multiplicidad esta representa la cantidad numérica de instancias de las clases que participan en la relación, aunque este puede ser cualquier número normalmente se acostumbra a utilizar el valor de 1 o * cuando son varias instancias las participantes.
     p Para facilitar el proceso de entendimiento y lectura se debe tener en cuenta la navegabilidad. Siempre se lee tomando como referencia 
