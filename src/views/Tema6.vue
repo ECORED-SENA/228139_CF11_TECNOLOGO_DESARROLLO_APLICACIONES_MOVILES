@@ -6,14 +6,7 @@
       .titulo-principal__numero
         span 6
       h1 Comunicación entre clases
-    p.mb-5 Las clases, al igual que los objetos, no existen de modo aislado. La programación orientada a objetos (POO) intenta modelar aplicaciones del mundo real tan fielmente como sea posible y por lo tanto debe reflejar estas relaciones entre clases y objetos. Por consiguiente, a continuación, podrá observar la comunicación entre clases:
-    .row.mb-5.justify-content-center
-      .col-lg-6.mb-5.mb-lg-0
-        //- .bloque-texto-b debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        .bloque-texto-b.color-primario.p-4
-          .bloque-texto-b__texto
-            h3.mb-0 La comunicación entre clases es posible solo a través de la parte pública de las clases correspondientes.
+    p Las clases, al igual que los objetos, no existen de modo aislado. La programación orientada a objetos (POO) intenta modelar aplicaciones del mundo real tan fielmente como sea posible y por lo tanto debe reflejar estas relaciones entre clases y objetos. 
     p.mb-5 
       b Según Rumbaugh, J., Jacobson, I. & Booch, G. (2004), 
       b-none existen tres clases básicas de relaciones entre los objetos:

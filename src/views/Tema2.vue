@@ -359,9 +359,9 @@
         figure.mb-5
           img.mb-2(src='@/assets/curso/2-3-figura6.svg', alt='Ejemplo de una relación herencia múltiple') 
 
-    p En el ejemplo de herencia múltiple, se puede observar un diagrama de clases donde se presentan varias relaciones de herencia, para el caso de la clase
+    p En el ejemplo de herencia múltiple, se puede observar un diagrama de clases donde se presentan varias relaciones de herencia, para el caso de la clase 
       strong VehiculoAnfibio 
-      | se presenta un caso de herencia múltiple ya que esta clase está heredando características de dos clases supertipo directas diferentes:
+      | se presenta un caso de herencia múltiple ya que esta clase está heredando características de dos clases supertipo directas diferentes: 
       strong VehículoTerrestre 
       | y 
       strong VehículoAcuatico.

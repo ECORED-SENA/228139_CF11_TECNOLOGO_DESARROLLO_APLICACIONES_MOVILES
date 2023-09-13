@@ -8,11 +8,6 @@
       h1 Introducción a UML
       
     figure.mb-5
-      img(src="@/assets/curso/banner-tema1.svg", alt="Computador con lenguaje de programación en la pantalla")  
-
-    p.mb-4 Los UML se consideran técnicas para la especificación de sistemas. A continuación podrá conocer su definición y principales características.
-
-    figure.mb-5
       img(src="@/assets/curso/UML.svg", alt="UML")  
 
     .row.mb-4

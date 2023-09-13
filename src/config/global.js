@@ -117,6 +117,11 @@ export default {
             titulo: 'Implementación de composición/agregación',
             hash: 't_6_2',
           },
+          {
+            numero: '6.3',
+            titulo: 'Implementación de herencia',
+            hash: 't_6_3',
+          },
         ],
       },
     ],
@@ -351,9 +356,14 @@ export default {
           centro: 'Centro de diseño y metrología - Regional distrito capital',
         },
         {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Revisor metodológico y pedagógico',
+          centro: 'Centro de Diseño y Metrología - Regional Cauca',
+        },
+        {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Experto temático',
-          centro: 'Centro de Gestión Industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Jhana Johanna Bustillo Ardila',
