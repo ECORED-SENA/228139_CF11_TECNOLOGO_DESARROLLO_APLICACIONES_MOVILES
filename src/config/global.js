@@ -156,7 +156,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF11_228139_DU.pdf',
+        download: 'downloads/CF11_228139_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -190,8 +190,7 @@ export default {
       referencia:
         'SENA. (2021). <i>Diagrama de clases  - Ejercicios resueltos</i>. ',
       tipo: 'Documento',
-      link:
-        'https://ecored-sena.github.io/APLICACION_SERVICIOS_NUBE_M4_CF2//downloads/ANEXO_DIAGRAMA_CLASES_EJERCICIOS.pdf',
+      descarga: '/downloads/ANEXO_DIAGRAMA_CLASES_EJERCICIOS.pdf',
     },
     {
       tema: '2. Diagrama de Clase',

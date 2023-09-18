@@ -50,7 +50,7 @@
           h5 Figura 12.
           span Características Java
         figure.mb-5
-          img.mb-3(src="@/assets/curso/img4.svg", alt="Las características Java son: sencillez, orientación a objetos, independencia de la arquitectura, robusto, dinámico y multitarea.")
+          img.mb-3(src="@/assets/curso/img4.png", alt="Las características Java son: sencillez, orientación a objetos, independencia de la arquitectura, robusto, dinámico y multitarea.")
           figcaption SENA (2021)
     p.mb-5 Además de contar con las anteriores características, existen distintos entornos de desarrollo de aplicaciones Java, este tipo de productos ofrecen al programador un ambiente de trabajo integrado para facilitar el proceso completo de desarrollo de aplicaciones; estos productos se denominan IDE (Integrated Development Environment). Entre los más conocidos se encuentran:
     .titulo-sexto.color-acento-contenido

@@ -150,7 +150,7 @@
               figure
                 img(src='@/assets/curso/group.svg', alt='Público')
             .col-xl-8
-              p Se define un atributo o método público cuando se quiere que sean vistos o accesibles por todas las clases 
+              p Se define un atributo o método público cuando se quiere que sean vistos o accesibles por todas las clases. 
         
         .tarjeta.color-acento-contenido2.p-4(titulo="Privado")
           .row.justify-content-center.align-items-center

@@ -81,7 +81,7 @@
           span Diagrama clase producto
       .col-lg-4
         figure.mb-5
-          img.mb-3(src="@/assets/curso/img8.svg", alt="")
+          img.mb-3(src="@/assets/curso/img8.svg", alt="Ejemplo de un diagrama de clase producto.")
           figcaption SENA (2021).
       .col-lg-6
         figure.mb-5
@@ -488,9 +488,9 @@
       .col-lg-10
         .cajon.color-acento-contenido.p-5.mb-4.justify-content-center
           p La palabra reservada 
-            b this 
+            b.fst-italic this 
             b-none hace referencia a los miembros de la propia clase en el objeto actual; es decir, 
-            b this 
+            b.fst-italic this 
             b-none se refiere al objeto actual sobre el que está actuando un método determinado y se utiliza siempre que se quiera hacer referencia al 
             b objetoactual 
             b-none de la clase.
@@ -545,7 +545,7 @@
     .row.mb-5.justify-content-center
       .col-lg-6
         figure
-          img(src="@/assets/curso/img28.svg", alt="" )
+          img(src="@/assets/curso/img28.svg", alt="Los tipos de modificadores son: default, private, protected y public." )
     .row.mb-0.justify-content-between
       .col-lg-5
         h5 Modificador de acceso por defecto (#[i default])
