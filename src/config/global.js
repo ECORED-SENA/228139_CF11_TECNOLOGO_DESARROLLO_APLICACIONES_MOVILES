@@ -190,7 +190,7 @@ export default {
       referencia:
         'SENA. (2021). <i>Diagrama de clases  - Ejercicios resueltos</i>. ',
       tipo: 'Documento',
-      descarga: '/downloads/ANEXO_DIAGRAMA_CLASES_EJERCICIOS.pdf',
+      descarga: '/downloads/Diagrama_de_Clases_Ejercicios_resueltos.pdf',
     },
     {
       tema: '2. Diagrama de Clase',

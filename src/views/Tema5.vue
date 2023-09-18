@@ -735,7 +735,7 @@
     br
     #t_5_4.titulo-segundo
       h2 5.4 Sobrecarga de métodos (#[i overload]) 
-    p.mb-5 Permite definir más de un constructor o método con el mismo nombre, con la condición de que no puede haber dos de ellos con el mismo número y tipo de parámetros. En resumen, la sobrecarga permite declarar métodos que se llamen igual pero que reciban parámetros diferentes (no puede haber 2 métodos con el mismo nombre y los mismos parámetros), por esta razón lo que define a qué método se ingresa, son los argumentos que se envían como parámetros.
+    p.mb-5 Permite definir más de un constructor o método con el mismo nombre, con la condición de que no puede haber dos de ellos con el mismo número y tipo de parámetros. En resumen, la sobrecarga permite declarar métodos que se llamen igual, pero que reciban parámetros diferentes (no puede haber 2 métodos con el mismo nombre y los mismos parámetros), por esta razón lo que define a qué método se ingresa, son los argumentos que se envían como parámetros.
     .titulo-sexto.color-acento-contenido
       h5 Figura 15.
       span Tipos de datos en Java

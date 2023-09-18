@@ -84,7 +84,7 @@
     p.mb-5 La agregación es un tipo de relación que comprende a las clases y sus diferentes componentes, constituyendo un todo, a su vez, la composición en cambio es un tipo de agregación, donde cada componente solo puede pertenecer a un todo.
       br
       br
-      |La composición en Java consiste en crear una clase nueva agrupando objetos de clases que ya existen, los objetos contenidos se declaran con visibilidad private y se inicializan en el constructor de la clase.
+      |La composición en Java consiste en crear una clase nueva agrupando objetos de clases que ya existen, los objetos contenidos se declaran con visibilidad #[i private] y se inicializan en el constructor de la clase.
     .row.mb-5.justify-content-center
       .col-lg-6
         img.mb-3(src="@/assets/curso/img39.svg", alt="").m-auto
